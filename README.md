@@ -6,7 +6,7 @@ This project is a **voice-activated emergency alert system** built using a **Ras
 
 - 🎙️ Real-time voice recognition using Google Web Speech API
 - 🔒 Detects custom distress phrases (e.g., "help me", "emergency")
-- 📧 Sends alert via Email (SMTP) or SMS (Twilio)
+- 📧 Sends alert via Email (SMTP)
 - 📍 Captures approximate GPS location using IP-based geolocation
 - 🔇 Ambient noise adjustment for better accuracy
 - 💡 Designed for personal safety (children, elderly, solo travelers)
@@ -18,7 +18,6 @@ This project is a **voice-activated emergency alert system** built using a **Ras
 - **Libraries**:
   - `speech_recognition` (Google Web Speech API)
   - `smtplib` (Email alerts)
-  - `twilio` (SMS alerts – optional)
   - `requests`, `geocoder` (for IP-based location)
 - **Audio Requirements**: USB microphone, `flac` encoder
 
